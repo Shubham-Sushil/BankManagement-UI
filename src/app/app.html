@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Welcome to Bank Management System</h1>
+  <p>IT Interview Preparation - Full Stack Project</p>
+
+  <div class="card">
+    <button (click)="onSubmit()" class="submit-btn">Submit</button>
+  </div>
+
+  <div *ngIf="responseMessage" class="response-box">
+    <p>{{ responseMessage }}</p>
+  </div>
+</div>
